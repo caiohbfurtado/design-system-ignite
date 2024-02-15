@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "eslint src/**/*.ts* --fix",
     "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "storybook build"
   },
   "dependencies": {
@@ -25,6 +26,7 @@
     "@storybook/blocks": "^7.6.13",
     "@storybook/react": "^7.6.13",
     "@storybook/react-vite": "^7.6.13",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^7.6.13",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
